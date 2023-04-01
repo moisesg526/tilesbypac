@@ -1,11 +1,15 @@
 import Footer from "./components/Footer";
+import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import PhoneNum from "./components/PhoneNum";
 import "./styles/App.css";
 
 function App() {
   return (
     <div className="app">
+      <PhoneNum />
       <Navbar />
+      <Main />
       <Footer />
     </div>
   );

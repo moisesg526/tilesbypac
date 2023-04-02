@@ -13,6 +13,7 @@
   padding-left: 10px;
   text-decoration: none;
   color: #fff;
+  margin: 10px;
 }
 
 .logo-img {
@@ -31,11 +32,12 @@
   outline: none;
   cursor: pointer;
   color: #fff;
+  text-decoration: none;
 }
 
 .quote-btn:before {
   content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  background: linear-gradient(45deg, #f3f3f3, #dedddd, #a5a5a4, #9b9b9b, #606161, #34353b, #0d0c0e, #100d0f, #351818);
   position: absolute;
   top: -2px;
   left:-2px;
@@ -75,6 +77,7 @@
   border-radius: 10px;
 }
 
+/* Keyframes needed to define animation for btn*/
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }

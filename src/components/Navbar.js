@@ -11,6 +11,9 @@ function Navbar() {
                 <a href="#">GALLERY</a>
                 <a href="#">CONTACT</a>
             </div>
+            <div className="quote">
+                <button className="quote-btn">Get a Qoute</button>
+            </div>
         </nav>
     )
 }

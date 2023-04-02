@@ -1,29 +1,45 @@
-import SimpleImageSlider from "react-simple-image-slider";
-import "../styles/Main.css";
-
+import Slider from "./Slider";
 function Main() {
-  let images = [
-    { url: "./images/bathroomdark.jpg" },
-    { url: "./images/whitekitchen.jpg" },
-    { url: "./images/bathroommodern.jpg" },
-    { url: "./images/kitchentiles.jpg" },
-    { url: "./images/bathroomsink.jpg" },
-    { url: "./images/kitchensink.jpg" },
-  ];
-
   return (
-    <div className="slider">
-      <SimpleImageSlider
-        width={600}
-        height={800}
-        images={images}
-        showBullets={true}
-        showNavs={true}
-        autoPlay={true}
-        autoPlayDelay={4}
-        style={{ margin: "0 auto", marginTop: "50px" }}
-        navMargin={30}
-      />
+    <div className="main">
+    <Slider />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In sapiente
+        provident expedita dolorum, ipsam temporibus dolorem odio earum labore
+        quo sequi? Deleniti possimus doloribus, perferendis voluptatibus autem
+        odio quam impedit!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In sapiente
+        provident expedita dolorum, ipsam temporibus dolorem odio earum labore
+        quo sequi? Deleniti possimus doloribus, perferendis voluptatibus autem
+        odio quam impedit!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In sapiente
+        provident expedita dolorum, ipsam temporibus dolorem odio earum labore
+        quo sequi? Deleniti possimus doloribus, perferendis voluptatibus autem
+        odio quam impedit!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In sapiente
+        provident expedita dolorum, ipsam temporibus dolorem odio earum labore
+        quo sequi? Deleniti possimus doloribus, perferendis voluptatibus autem
+        odio quam impedit!
+
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In sapiente
+        provident expedita dolorum, ipsam temporibus dolorem odio earum labore
+        quo sequi? Deleniti possimus doloribus, perferendis voluptatibus autem
+        odio quam impedit!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In sapiente
+        provident expedita dolorum, ipsam temporibus dolorem odio earum labore
+        quo sequi? Deleniti possimus doloribus, perferendis voluptatibus autem
+        odio quam impedit!
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In sapiente
+        provident expedita dolorum, ipsam temporibus dolorem odio earum labore
+        quo sequi? Deleniti possimus doloribus, perferendis voluptatibus autem
+        odio quam impedit!
+      </p>
     </div>
   );
 }

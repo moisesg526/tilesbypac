@@ -1,8 +1,8 @@
 import Footer from "./components/Footer";
-import Main from "./components/Main";
+import Slider from "./components/Slider";
 import Navbar from "./components/Navbar";
 import PhoneNum from "./components/PhoneNum";
-import "./styles/App.css";
+import Main from "./components/Main";
 
 function App() {
   return (

@@ -8,7 +8,7 @@ function PhoneNum() {
         </h3>
       </div>
       <div className="phone">
-        <h3>(123) 456-7890</h3>
+        <h3>(123) 456 - 7890</h3>
       </div>
     </div>
   );

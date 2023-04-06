@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PhoneNum from "./components/PhoneNum";
 import Main from "./components/Main";
+import Reviews from "./components/Reviews";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <PhoneNum />
       <Navbar />
       <Main />
+      <Reviews />
       <Footer />
     </div>
   );

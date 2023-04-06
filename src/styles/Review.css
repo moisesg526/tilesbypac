@@ -1,0 +1,35 @@
+.review-slide {
+    background-color: #e5e5e5;
+    width: 1000px;
+    height:100px ;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.review-slide p {
+    font-size: 30px;
+}
+.review {
+    position: relative;
+    bottom: 0;
+    animation: slides linear 80s infinite;
+}
+
+.review:hover {
+    animation-play-state: paused;
+}
+
+.slides {
+    width: 100%;
+    flex-shrink: 0;
+    padding: 20px 40px;
+    line-height: 30px;
+}
+
+@keyframes slides {
+    0% { bottom: 0%; }
+    33% { bottom: 100%; }
+    66% { bottom: 200%; }
+    100% { bottom: 0%; }
+}

@@ -5,8 +5,9 @@
   background-color: #000;
   color: #fff;
   font-size: 12px;
-  position: sticky;
-  bottom: 0%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .right-footer {

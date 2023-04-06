@@ -1,0 +1,31 @@
+.callus {
+  background-image: url("/public/images/lemonkitchen.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+}
+
+.callus-text {
+  padding: 30px 40px;
+  background-color: black;
+  color: #e5e5e5;
+  width: 800px;
+  text-align: center;
+  height: auto;
+}
+
+.callus-text h2 {
+  font-size: 44px;
+  line-height: 50px;
+}
+
+.callus-text p {
+  padding-top: 20px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.callus-p {
+    width: 400px;
+    margin: auto;
+}

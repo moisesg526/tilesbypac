@@ -1,0 +1,39 @@
+.pitch {
+  position: relative;
+  width: 600px;
+  padding: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pitch-text {
+  background-color: #e5e5e5;
+  color: #000;
+  width: 400px;
+  padding: 20px;
+  position: absolute;
+  bottom: 90px;
+  left: -300px;
+}
+
+.pitch h2 {
+  padding: 20px 0;
+  line-height: 40px;
+  text-align: center;
+}
+
+.pitch p {
+  line-height: 1.8rem;
+}
+
+.construction-img {
+  width: 200px;
+  position: absolute;
+  top: 100px;
+  right: -100px;
+}
+
+.finishedkitchen-img {
+  width: 600px;
+}

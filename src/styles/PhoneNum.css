@@ -8,3 +8,12 @@
     top: 0;
     font-size: .8rem;
 }
+
+
+@media only screen and (max-width: 801px) {
+    .container{
+      flex-wrap: wrap;
+      justify-content: center;
+      font-size: 10px;
+    }
+}

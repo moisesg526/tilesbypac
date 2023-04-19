@@ -83,3 +83,14 @@
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+@media only screen and (max-width: 801px) {
+
+  .logo-img {
+    width: 80px;
+  }
+
+  .quote-btn {
+    font-size: 10px;
+  }
+}

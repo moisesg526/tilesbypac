@@ -32,3 +32,30 @@
   width: 400px;
   margin: auto;
 }
+
+@media only screen and (max-width: 801px) {
+  .callus {
+    height: 400px;
+    width: contain;
+    margin: auto;
+  }
+
+  .callus-text {
+    margin: auto;
+    width: 400px;
+  }
+
+  .callus-text h2 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .callus-text p {
+    padding-top: 10px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .callus-p {
+    width: fit-content;
+  }
+}

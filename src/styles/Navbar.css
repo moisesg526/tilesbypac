@@ -94,3 +94,20 @@
     font-size: 10px;
   }
 }
+
+@media (width <= 500px) {
+  .logo-img {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 10px;
+  }
+
+  .quote-btn {
+    font-size: 8px;
+  }
+}

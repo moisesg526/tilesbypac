@@ -39,7 +39,7 @@
 }
 
 
-@media only screen and (max-width: 801px) {
+@media only screen and (max-width: 830px) {
   .pitch {
     width: 200px;
     box-sizing: border-box;
@@ -61,5 +61,25 @@
   }
   .finishedkitchen-img {
     width: 300px;
+  }
+}
+
+
+
+@media (width <= 530px) {
+  .pitch {
+    margin: 0;
+  }
+  .pitch-text {
+    position: static;
+    width: 250px;
+  }
+
+  .construction-img {
+    display: none;
+  }
+  .finishedkitchen-img {
+    width: 250px;
+    padding-bottom: 20px;
   }
 }

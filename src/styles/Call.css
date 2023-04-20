@@ -33,7 +33,7 @@
   margin: auto;
 }
 
-@media only screen and (max-width: 801px) {
+@media only screen and (max-width: 830px) {
   .callus {
     height: 400px;
     width: contain;
@@ -58,4 +58,11 @@
   .callus-p {
     width: fit-content;
   }
+}
+
+@media (width <= 500px) {
+  
+  .callus-text {
+    width: 300px;
+}
 }

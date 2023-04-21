@@ -7,11 +7,6 @@ function Pitch() {
         alt="Kitchen"
         className="finishedkitchen-img"
       />
-      <img
-        src="./images/construction.jpg"
-        alt="Construction at work"
-        className="construction-img"
-      />
       <div className="pitch-text">
         <h2>Outstanding Residential & Commercial Services</h2>
         <p>

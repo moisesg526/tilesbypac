@@ -1,20 +1,15 @@
 .pitch {
   position: relative;
   width: 600px;
-  padding: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
 .pitch-text {
   background-color: #e5e5e5;
   color: #000;
-  width: 400px;
   padding: 20px;
+  margin: auto;
   position: absolute;
-  bottom: 90px;
-  left: -300px;
 }
 
 .pitch h2 {
@@ -39,10 +34,19 @@
 }
 
 
-@media only screen and (max-width: 830px) {
+@media (width >= 531) and (width < 830px) {
   .pitch {
-    width: 200px;
-    box-sizing: border-box;
+    position: relative;
+    width: 600px;
+    text-align: center;
+  }
+
+  .pitch-text {
+    background-color: #e5e5e5;
+    color: #000;
+    padding: 20px;
+    margin: auto;
+    position: absolute;
   }
 
   .pitch h2 {
@@ -60,7 +64,7 @@
     width: 120px;
   }
   .finishedkitchen-img {
-    width: 300px;
+    width: 100px;
   }
 }
 
@@ -68,11 +72,15 @@
 
 @media (width <= 530px) {
   .pitch {
-    margin: 0;
+    position: static;
+    width: max-content;
+    margin: auto;
   }
   .pitch-text {
     position: static;
-    width: 250px;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 30px;
   }
 
   .construction-img {
@@ -81,5 +89,7 @@
   .finishedkitchen-img {
     width: 250px;
     padding-bottom: 20px;
+    display: flex;
+    margin: auto;
   }
 }

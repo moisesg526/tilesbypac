@@ -6,9 +6,9 @@ import "../styles/Main.css";
 function Main() {
   return (
     <div className="main">
+      <Call />
       <Slider />
       <Pitch />
-      <Call />
       <Reviewslider />
     </div>
   );

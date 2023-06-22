@@ -7,8 +7,8 @@ function Main() {
   return (
     <div className="main">
       <Call />
-      <Slider />
       <Pitch />
+      <Slider />
       <Reviewslider />
     </div>
   );

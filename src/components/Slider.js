@@ -12,7 +12,7 @@ function Main() {
   ];
 
   return (
-    <div className="main">
+    <div >
       <div className="slider">
         <SimpleImageSlider
           width={600}

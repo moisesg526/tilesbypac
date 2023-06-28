@@ -1,78 +1,48 @@
 .callus {
   background-image: url("/public/images/lemonkitchen.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
-  width: max-content;
-  overflow: hidden;
-  background-position: center center;
+  background-size: 100%;
+  background-position: center;
+  height: 550px;
 }
 
 .callus-text {
   padding: 30px 40px;
   background-color: black;
   color: #e5e5e5;
-  width: 800px;
+  width: 100%;
   text-align: center;
   height: auto;
   margin: auto;
 }
 
 .callus-text h2 {
-  font-size: 44px;
-  line-height: 50px;
+  font-size: 1rem;
 }
 
 .callus-text p {
   padding-top: 20px;
-  line-height: 30px;
+  line-height: 20px;
   text-align: left;
+  font-size: 0.8rem;
 }
 
-.callus-p {
-  width: 400px;
-  margin: auto;
-}
-
-@media (width >= 531px) and (width < 830px) {
-  .callus {
-    height: 400px;
-    width: contain;
-    margin-top: 200px;
-  }
-
-  .callus-text {
-    margin: auto;
-    width: 400px;
-  }
-
+@media only screen and (max-width: 820px) and (min-width: 430px) {
   .callus-text h2 {
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 1.2rem;
   }
 
   .callus-text p {
-    padding-top: 10px;
-    font-size: 10px;
-    line-height: 12px;
-  }
-  .callus-p {
-    width: fit-content;
+    font-size: 0.8rem;
+    text-align: center;
   }
 }
 
-@media (width <= 500px) {
-  .callus {
-    margin-top: 50px;
-  }
-  .callus-text {
-    width: 100%;
-  }
+@media only screen and (min-width: 821px) {
   .callus-text h2 {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 1.6rem;
   }
-  .callus-p {
-    font-size: 10px;
-    width: auto;
+  .callus-text p {
+    font-size: 1rem;
   }
 }

@@ -1,7 +1,7 @@
 import "../styles/PhoneNum.css";
 function PhoneNum() {
   return (
-    <div className="container">
+    <div className="phoneNum-container">
       <div className="hours">
         <h3>
           <i class="fa-regular fa-clock fa-lg"></i> &nbsp;  Mon - Fri 07:00 AM - 6:00 PM

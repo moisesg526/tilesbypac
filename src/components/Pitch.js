@@ -1,9 +1,10 @@
 import "../styles/Pitch.css";
+import finishedkitchen from "../images/finishedkitchen.jpg"
 function Pitch() {
   return (
     <div className="pitch">
       <img
-        src="./images/finishedkitchen.jpg"
+        src={finishedkitchen}
         alt="Kitchen"
         className="finishedkitchen-img"
       />

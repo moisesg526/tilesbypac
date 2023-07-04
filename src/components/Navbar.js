@@ -1,10 +1,11 @@
 import "../styles/Navbar.css";
+import logo from "../images/logo.png"
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
         <img
-          src="./images/logo.png"
+          src={logo}
           alt="Tilesbypac logo"
           className="logo-img"
         />

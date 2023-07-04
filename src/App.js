@@ -1,7 +1,11 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PhoneNum from "./components/PhoneNum";
-import Main from "./components/Main";
+import Pitch from "./components/Pitch";
+import Slider from "./components/Slider";
+import Call from "./components/Call";
+import Reviewslider from "./components/Reviewslider";
+// import Main from "./components/Main";
 import "./styles/App.css";
 
 function App() {
@@ -9,7 +13,10 @@ function App() {
     <div className="app">
       <PhoneNum />
       <Navbar />
-      <Main />
+      <Call />
+      <Pitch />
+      <Slider />
+      <Reviewslider />
       <Footer />
     </div>
   );

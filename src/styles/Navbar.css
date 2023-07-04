@@ -30,6 +30,10 @@
   text-decoration: none;
 }
 
+.quote-btn {
+  margin-left: 10px;
+}
+
 .quote-btn:before {
   content: "";
   background: linear-gradient(

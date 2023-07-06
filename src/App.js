@@ -5,8 +5,23 @@ import Pitch from "./components/Pitch";
 import Slider from "./components/Slider";
 import Call from "./components/Call";
 import Reviewslider from "./components/Reviewslider";
+import classnames from 'classnames';
 // import Main from "./components/Main";
 import "./styles/App.css";
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if(entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
 
 function App() {
   return (
@@ -14,9 +29,9 @@ function App() {
       <PhoneNum />
       <Navbar />
       <Call />
-      <Pitch />
-      <Slider />
-      <Reviewslider />
+      <Slider className={classnames("hidden")}/>
+      <Pitch className={classnames("hidden")}/>
+      <Reviewslider className={classnames("hidden")}/>
       <Footer />
     </div>
   );

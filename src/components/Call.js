@@ -1,4 +1,5 @@
 import "../styles/Call.css";
+import lemonkitchen from "../images/lemonkitchen.jpg"
 function Call() {
   return (
     <div className="callus">
@@ -11,6 +12,7 @@ function Call() {
           </p>
         </div>
       </div>
+      <img src={lemonkitchen} alt="lemon-kitchen" className="lemon-kitchen"/>
     </div>
   );
 }

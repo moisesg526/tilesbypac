@@ -1,9 +1,10 @@
 .callus {
-  background-image: url("../images/lemonkitchen.jpg");
+padding: 0 0 2rem;
+}
+
+.lemon-kitchen {
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  height: 550px;
+  width: 100%;
 }
 
 .callus-text {

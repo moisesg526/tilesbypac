@@ -1,54 +1,31 @@
-import React, { useState } from "react";
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { reviews } from "../components/reviews";
 import "../styles/Review.css";
 
 function Reviews() {
-  const reviews = [
-    {
-      id: 1,
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, magni. Expedita, neque officia amet atque illo ipsam temporibus delectus necessitatibus consectetur quod. Enim placeat quia aliquid nam, molestias veritatis voluptate?",
-      author: "Max Mitchel",
-    },
-    {
-      id: 2,
-      review:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam, unde ipsa quam dolorum ipsum eius ad enim architecto optio. Rem iste laboriosam aperiam similique quaerat laudantium repellat. Maiores, iste!",
-      author: "John Doe",
-    },
-    {
-      id: 3,
-      review:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam",
-      author: "Jane Doe",
-    },
-    {
-      id: 4,
-      review:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsam, unde ipsa quam dolorum ipsum eius ad",
-      author: "Chri Long",
-    },
-  ];
-
-  const [reviewData, setReviewData] = useState(reviews[0].review);
-  const [reviewauthor, setReviewAuthor] = useState(reviews[0].author);
-  const handleClick = (index) => {
-    const rslider = reviews[index].review;
-    setReviewData(rslider);
-    const aslider = reviews[index].author;
-    setReviewAuthor(aslider);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
-
   return (
-    <div className="review-slider">
-      <div className="rslider">" {reviewData} "</div>
-      <div className="aslider">- {reviewauthor}</div>
-      <div className="r-slides">
-        {reviews.map((obj, index) => (
-          <h1 key={index} onClick={() => handleClick(index)}>
-            .
-          </h1>
+    <div className="review-component">
+        <h2 className="review-title">Dont just take out word! See what others are saying.</h2>
+      <Slider {...settings}>
+        {reviews.map((item) => (
+          <div className="review-card-component">
+            <div className="review-card-top">
+              <h4>{item.review}</h4>
+            </div>
+            <div className="review-card-bottom">{item.author}</div>
+          </div>
         ))}
-      </div>
+      </Slider>
     </div>
   );
 }

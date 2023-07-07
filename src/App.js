@@ -6,7 +6,6 @@ import Slider from "./components/Slider";
 import Call from "./components/Call";
 import Reviewslider from "./components/Reviewslider";
 import classnames from 'classnames';
-// import Main from "./components/Main";
 import "./styles/App.css";
 
 const observer = new IntersectionObserver((entries) => {

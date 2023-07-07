@@ -1,57 +1,79 @@
-.review-slider {
-  padding: 40px;
-  text-align: center;
-  background-color: #e5e5e5;
-  color: #000;
-}
-
-.r-slides {
-  display: flex;
-  justify-content: center;
-}
-
-.r-slides h1 {
-  font-size: 40px;
-  cursor: pointer;
-  text-decoration: none;
-  color: rgba(59, 59, 59, 0.8);
-  padding: 10px;
-  transition: all 0.2s ease-in-out;
-}
-
-.r-slides h1:hover {
-  color: rgb(28, 28, 28);
-}
-
-.rslider {
-  width: 300px;
+.review-component {
+  width: 70%;
   margin: auto;
-  padding: 30px;
-  font-size: 20px;
+  padding: 20px 0;
 }
 
-.aslider {
-  font-weight: 800;
+.review-title {
+  color: #fff;
+  padding: 0 0 40px;
+  text-align: center;
 }
 
+.review-card-component {
+  overflow: hidden;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid;
+  border-color: #fff;
+}
 
+.slick-slide > div {
+  margin: 0 10px;
+}
 
-@media only screen and (max-width: 801px) {
-  .review-slider {
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.slick-list {
+  margin: 0 -10px;
+}
+
+.review-card-top {
+  font-size: 1rem;
+}
+
+.review-card-bottom {
+  font-size: 0.8rem;
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 820px) and (min-width: 430px) {
+  .review-component {
+    padding: 600px 0 0;
   }
-  .r-slides h1 {
-    font-size: 16px;
+  .review-card-component {
+    padding: 60px;
   }
-  .rslider {
-    width: 200px;
-    padding: 20px;
-    font-size: 12px;
+
+  .review-card-top {
+    font-size: 1.2rem;
+    line-height: 2rem;
   }
-  .aslider {
-    font-weight: 800;
-    font-size: 12px;
+  
+  .review-card-bottom {
+    font-size: 1rem;
+    padding-top: 30px;
   }
+}
+
+@media only screen and (min-width: 821px) {
+  .review-component {
+    margin: auto;
+    padding: 1200px 0 0;
+  }
+  .review-card-component {
+    padding: 80px;
+  }
+
+  .review-card-top {
+    line-height: 2.5rem;
+  }
+  
+  .review-card-bottom {
+    font-size: 1rem;
+    padding-top: 50px;
+  }
+  
 }

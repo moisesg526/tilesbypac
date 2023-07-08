@@ -2,7 +2,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PhoneNum from "./components/PhoneNum";
 import Pitch from "./components/Pitch";
-import Slider from "./components/Slider";
+import Imageslider from "./components/Imageslider";
 import Call from "./components/Call";
 import Reviewslider from "./components/Reviewslider";
 import classnames from 'classnames';
@@ -28,7 +28,7 @@ function App() {
       <PhoneNum />
       <Navbar />
       <Call />
-      <Slider className={classnames("hidden")}/>
+      <Imageslider className={classnames("hidden")}/>
       <Pitch className={classnames("hidden")}/>
       <Reviewslider className={classnames("hidden")}/>
       <Footer />

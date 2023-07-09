@@ -1,5 +1,5 @@
 .callus {
-padding: 0 0 2rem;
+  padding: 40px 0;
 }
 
 .lemon-kitchen {
@@ -29,6 +29,10 @@ padding: 0 0 2rem;
 }
 
 @media only screen and (max-width: 820px) and (min-width: 430px) {
+  .callus {
+    padding: 100px 0;
+  }
+
   .callus-text h2 {
     font-size: 1.2rem;
   }

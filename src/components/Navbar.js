@@ -17,7 +17,6 @@ function Navbar() {
         <a href="#" className="quote-btn">CONTACT</a>
       </div>
       <div className="quote">
-        {/* <button className="quote-btn">Get a Qoute</button> */}
         <a href="mailto:tilesbypac@abc.com" className="quote-btn">
           Get a Quote
         </a>

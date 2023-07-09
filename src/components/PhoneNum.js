@@ -4,7 +4,7 @@ function PhoneNum() {
     <div className="phoneNum-container">
       <div className="hours">
         <h3>
-          <i class="fa-regular fa-clock fa-lg"></i> &nbsp;  Mon - Fri 07:00 AM - 6:00 PM
+          <i className="fa-regular fa-clock fa-lg"></i> &nbsp;  Mon - Fri 07:00 AM - 6:00 PM
         </h3>
       </div>
       <div className="phone">

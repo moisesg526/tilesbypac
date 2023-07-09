@@ -7,11 +7,11 @@
 }
 
 .pitch-text {
-  background-color: #e5e5e5;
-  color: #000;
+  background: rgb(220, 220, 220);
+  color: #000000;
   padding: 60px 20px;
   position: absolute;
-  opacity: .7;
+  opacity: .8;
   z-index: 2;
   margin: 15% 0;
 }
@@ -38,15 +38,17 @@
   }
 
   .pitch-text {
+    padding: 60px 20px;
   }
 
   .pitch h2 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     line-height: 1rem;
+    
   }
   .pitch p {
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 
   .finishedkitchen-img {

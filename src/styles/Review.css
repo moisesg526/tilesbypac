@@ -58,10 +58,10 @@
   }
 }
 
-@media only screen and (min-width: 821px) {
+@media only screen  and (max-width: 1024px) and (min-width: 821px) {
   .review-component {
     margin: auto;
-    padding: 1200px 0 0;
+    padding: 200px 0 0;
   }
   .review-card-component {
     padding: 80px;
@@ -76,4 +76,24 @@
     padding-top: 50px;
   }
   
+}
+
+
+@media only screen and (min-width: 1025px) {
+  .review-component {
+    padding: 6.25em 0 0;
+  }
+  .review-card-component {
+    padding: 6.25em;
+  }
+
+  .review-card-top {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  
+  .review-card-bottom {
+    font-size: 1.2rem;
+    padding-top: 50px;
+  }
 }

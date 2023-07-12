@@ -34,16 +34,20 @@
   }
 
   .callus-text h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .callus-text p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 }
 
 @media only screen and (min-width: 821px) {
+  .callus {
+    padding: 200px 0 0;
+  }
+
   .callus-text h2 {
     font-size: 1.6rem;
   }

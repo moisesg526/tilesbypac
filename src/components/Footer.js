@@ -7,8 +7,8 @@ function Footer() {
         <h3>All Rights Reserved</h3>
       </div>
       <div className="right-footer">
-        <h3>Follow Us</h3> <i className="fa-brands fa-facebook fa-xl"></i>{" "}
-        <i className="fa-brands fa-instagram fa-xl"></i>
+        <h3>Follow Us</h3> <i className="fa-brands fa-facebook fa-xl social-media"></i>{" "}
+        <i className="fa-brands fa-instagram fa-xl social-media"></i>
       </div>
     </footer>
   );

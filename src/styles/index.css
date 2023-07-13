@@ -1,20 +1,20 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url("../images/dark-background.jpg");
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Ubuntu', sans-serif;
+  background-image: url("../images/dark-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Ubuntu", sans-serif;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
-  
 @media only screen and (max-width: 530px) {
-    body {
-        background-size: cover;
-        background-position: center;
-    }
+  body {
+    background-size: cover;
+    background-position: center;
   }
+}

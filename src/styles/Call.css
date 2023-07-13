@@ -43,7 +43,7 @@
   }
 }
 
-@media only screen and (min-width: 821px) {
+@media only screen and (max-width: 1024px) and (min-width: 821px) {
   .callus {
     padding: 200px 0 0;
   }
@@ -53,5 +53,30 @@
   }
   .callus-text p {
     font-size: 1rem;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 1025px) {
+  .lemon-kitchen {
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  }
+
+  .callus-text {
+    padding: 40px;
+    width: 70%;
+  }
+
+  .callus-text h2 {
+    font-size: 1.7rem;
+  }
+
+  .callus-text p {
+    font-size: 1.2rem;
+    text-align: center;
   }
 }

@@ -33,10 +33,16 @@
 }
 
 
-@media only screen and (min-width: 821px) {
+@media only screen and (max-width: 1024px) and (min-width: 821px) {
   .main-img-slider-component {
     width: 40%;
     margin: auto;
     padding: 50px 0 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .main-img-slider-component {
+    width: 30%;
   }
 }

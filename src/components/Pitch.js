@@ -1,3 +1,5 @@
+import BackToTopBtn from "./BackToTopBtn";
+
 import "../styles/Pitch.css";
 import finishedkitchen from "../images/finishedkitchen.jpg"
 function Pitch() {
@@ -17,6 +19,8 @@ function Pitch() {
           only ends once they’re fully satisfied with our work.​
         </p>
       </div>
+
+    <BackToTopBtn/>
     </div>
   );
 }

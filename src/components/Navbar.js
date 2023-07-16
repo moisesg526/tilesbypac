@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import logo from "../images/logo.png"
 function Navbar() {
@@ -11,10 +12,10 @@ function Navbar() {
         />
       </div>
       <div className="nav-links">
-        <a href="#" className="quote-btn">HOME</a>
-        <a href="#" className="quote-btn">ABOUT US</a>
-        <a href="#" className="quote-btn">GALLERY</a>
-        <a href="#" className="quote-btn">CONTACT</a>
+        <Link to="#" className="quote-btn">HOME</Link>
+        <Link to="#" className="quote-btn">ABOUT US</Link>
+        <Link to="#" className="quote-btn">GALLERY</Link>
+        <Link to="#" className="quote-btn">CONTACT</Link>
       </div>
       <div className="quote">
         <a href="mailto:tilesbypac@abc.com" className="quote-btn">

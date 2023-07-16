@@ -3,7 +3,7 @@ import Pitch from "../components/Pitch";
 import Imageslider from "../components/Imageslider";
 import Call from "../components/Call";
 import Reviewslider from "../components/Reviewslider";
-import BackToTopBtn from "./BackToTopBtn";
+import BackToTopBtn from "../components/BackToTopBtn";
 
 function FadeInWhenVisible({ children }) {
   return (

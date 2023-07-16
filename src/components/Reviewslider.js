@@ -15,7 +15,7 @@ function Reviews() {
   };
   return (
     <div className="review-component">
-        <h2 className="review-title">Dont just take out word! See what others are saying.</h2>
+        <h2 className="review-title">Dont just take our word! See what others are saying.</h2>
       <Slider {...settings}>
         {reviews.map((item) => (
           <div className="review-card-component">

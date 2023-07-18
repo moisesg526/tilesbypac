@@ -4,7 +4,9 @@ function About() {
   return (
     <div className="about">
       <h1>About Us</h1>
-      <h3>You spend the most time at home - Why not love where you live.</h3>
+      <h3 className="about-title">
+        You spend the most time at home - Why not love where you live.
+      </h3>
       <div className="about-body">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
@@ -45,13 +47,60 @@ function About() {
       </div>
       <div className="testimonials">
         <h2>What our clients say</h2>
-        <p className="testimonials-body">
-         " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sequi
-          illo illum veniam error, voluptatum repudiandae corrupti, dolor aut
-          dignissimos dolorum et, nemo totam. Iusto harum fugit quo sint
-          tempore? "
-        </p>
-        <h3 className="testimonial-author">Jane Doe</h3>
+        <div className="testimonial">
+          <p className="testimonials-body">
+            " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            sequi illo illum veniam error, voluptatum repudiandae corrupti,
+            dolor aut dignissimos dolorum et, nemo totam. Iusto harum fugit quo
+            sint tempore? "
+          </p>
+          <h3 className="testimonial-author">- Jane Doe</h3>
+        </div>
+        <div className="testimonial">
+          <p className="testimonials-body">
+            " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            sequi illo illum veniam error, voluptatum repudiandae corrupti,
+            dolor aut dignissimos dolorum et, nemo totam. Iusto harum fugit quo
+            sint tempore? "
+          </p>
+          <h3 className="testimonial-author">- Jane Doe</h3>
+        </div>
+        <div className="testimonial">
+          <p className="testimonials-body">
+            " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            sequi illo illum veniam error, voluptatum repudiandae corrupti,
+            dolor aut dignissimos dolorum et, nemo totam. Iusto harum fugit quo
+            sint tempore? "
+          </p>
+          <h3 className="testimonial-author">- Jane Doe</h3>
+        </div>
+        <div className="testimonial">
+          <p className="testimonials-body">
+            " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            sequi illo illum veniam error, voluptatum repudiandae corrupti,
+            dolor aut dignissimos dolorum et, nemo totam. Iusto harum fugit quo
+            sint tempore? "
+          </p>
+          <h3 className="testimonial-author">- Jane Doe</h3>
+        </div>
+        <div className="testimonial">
+          <p className="testimonials-body">
+            " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            sequi illo illum veniam error, voluptatum repudiandae corrupti,
+            dolor aut dignissimos dolorum et, nemo totam. Iusto harum fugit quo
+            sint tempore? "
+          </p>
+          <h3 className="testimonial-author">- Jane Doe</h3>
+        </div>
+        <div className="testimonial">
+          <p className="testimonials-body">
+            " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
+            sequi illo illum veniam error, voluptatum repudiandae corrupti,
+            dolor aut dignissimos dolorum et, nemo totam. Iusto harum fugit quo
+            sint tempore? "
+          </p>
+          <h3 className="testimonial-author">- Jane Doe</h3>
+        </div>
       </div>
     </div>
   );

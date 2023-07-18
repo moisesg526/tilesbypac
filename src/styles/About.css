@@ -1,0 +1,41 @@
+.about h1 {
+  color: #fff;
+  text-align: center;
+  background-color: #161616;
+  padding: 2rem 0;
+}
+
+.about {
+  background-color: #fff;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 1.2rem;
+  padding: 4rem 0 2rem;
+}
+
+.about p {
+  line-height: 2rem;
+  margin: 1rem 0;
+}
+
+.about-body {
+  padding: 0 10rem 4rem;
+}
+
+.testimonials-body {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.testimonials-body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.testimonials-author h3{
+    font-size: 2rem;
+    font-weight: 700;
+}

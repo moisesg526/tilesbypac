@@ -8,7 +8,7 @@ function Contact() {
         <p>
           If you have any questions, concerns or want any information on the
           products and services we provide please dont hesitate to call us. We
-          gladyly reply to texts.
+          glady reply to texts.
         </p>
         <h3>
           Location <i className="fa-solid fa-map-location-dot fa-xl"></i>

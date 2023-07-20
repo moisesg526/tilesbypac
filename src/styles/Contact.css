@@ -1,0 +1,38 @@
+.contact-container {
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-container h1 {
+  color: #fff;
+  text-align: center;
+  background-color: #161616;
+  padding: 2rem 0;
+}
+
+
+.contact-container h3 {
+    padding: 1.8rem 0;
+
+}
+
+
+.contact-container p {
+    line-height: 1.8rem;
+}
+
+.contact-body {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2rem 0;
+}
+
+.contact-quote {
+    padding: 2rem 0;
+} 
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2rem;
+}

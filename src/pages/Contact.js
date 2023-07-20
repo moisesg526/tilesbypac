@@ -7,7 +7,8 @@ function Contact() {
       <div className="contact-body">
         <p>
           If you have any questions, concerns or want any information on the
-          products and services we provide please dont hesitate to call us.
+          products and services we provide please dont hesitate to call us. We
+          gladyly reply to texts.
         </p>
         <h3>
           Location <i className="fa-solid fa-map-location-dot fa-xl"></i>
@@ -27,14 +28,15 @@ function Contact() {
           <li>Saturday & Sunday: Available by advance scheduling</li>
         </ul>
         <h3>
-          Contact Info <i className="fa-solid fa-mobile-screen-button fa-xl"></i>
+          Contact Info{" "}
+          <i className="fa-solid fa-mobile-screen-button fa-xl"></i>
         </h3>
         <ul>
           <li>Phone: (123) 456 - 7890</li>
           <li>Email: Tilesbypac@gmail.com</li>
         </ul>
         <div className="contact-quote">
-          <a href="mailto:tilesbypac@abc.com" className="quote-btn">
+          <a href="mailto:tilesbypac@abc.com" className="quote-btn contact-quote-btn">
             Get a Quote
           </a>
         </div>

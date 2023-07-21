@@ -1,0 +1,31 @@
+.gallery-container {
+  background-color: #fff;
+  text-align: center;
+}
+
+.gallery-container h1 {
+  color: #fff;
+  text-align: center;
+  background-color: #161616;
+  padding: 2rem 0;
+}
+.gallery-img-container{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.gallery-img {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    image-rendering: pixelated;
+}
+
+.gallery-img:hover {
+    transform: scale(1.5);
+}

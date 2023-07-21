@@ -4,9 +4,32 @@ function Gallery() {
   return (
     <div className="gallery-container">
       <h1>Gallery</h1>
-      <div className="bathroom-gallery"></div>
+      <div className="bathroom-gallery">
+        <h2>Bathroom</h2>
+        <div className="gallery-img-container">
+          <img
+            src={require("../images/bathroomdark.jpg")}
+            alt="dark bathroom"
+            className="gallery-img"
+          />
+        </div>
+        <div className="gallery-img-container">
+          <img
+            src={require("../images/bathroommodern.jpg")}
+            alt="modern bathroom"
+            className="gallery-img"
+          />
+        </div>
+        <div className="gallery-img-container">
+          <img
+            src={require("../images/bathroomsink.jpg")}
+            alt="bathroom sink"
+            className="gallery-img"
+          />
+        </div>
+      </div>
       <div className="kitchen-gallery">
-      <h2>Kitchen</h2>
+        <h2>Kitchen</h2>
         <div className="gallery-img-container">
           <img
             src={require("../images/whitekitchen.jpg")}

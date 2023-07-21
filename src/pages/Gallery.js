@@ -6,6 +6,7 @@ function Gallery() {
       <h1>Gallery</h1>
       <div className="bathroom-gallery"></div>
       <div className="kitchen-gallery">
+      <h2>Kitchen</h2>
         <div className="gallery-img-container">
           <img
             src={require("../images/whitekitchen.jpg")}

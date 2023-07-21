@@ -1,13 +1,17 @@
 .gallery-container {
-  background-color: #fff;
+  background-color: #1b1b1b;
+  background-size: cover;
   text-align: center;
 }
 
 .gallery-container h1 {
   color: #fff;
-  text-align: center;
-  background-color: #161616;
-  padding: 2rem 0;
+  font-size: 2rem;
+  text-align: left;
+  background-image: url("../images/black-stairs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 10rem;
 }
 .gallery-img-container{
     width: 80%;
@@ -28,4 +32,10 @@
 
 .gallery-img:hover {
     transform: scale(1.5);
+}
+
+.kitchen-gallery h2 {
+  padding: 3rem 0;
+  font-size: 1.5rem;
+  color: #fff;
 }

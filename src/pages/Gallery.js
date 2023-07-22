@@ -1,3 +1,4 @@
+import BackToTopBtn from "../components/BackToTopBtn";
 import "../styles/Gallery.css";
 
 function Gallery() {
@@ -87,6 +88,7 @@ function Gallery() {
           />
         </div>
       </div>
+      <BackToTopBtn />
     </div>
   );
 }

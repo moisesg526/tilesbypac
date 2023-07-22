@@ -13,6 +13,38 @@
   background-size: cover;
   padding: 2rem 2rem;
 }
+
+.gallery-selection {
+  color: #fff;
+  
+}
+
+.bathroom-gallery {
+  display: block;
+}
+
+.hide-bathroom-gallery {
+  display: none;
+}
+
+.kitchen-gallery {
+  display: block;
+}
+
+.hide-kitchen-gallery {
+  display: none;
+}
+.gallery-selection ul {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-selection ul li {
+  padding: 1rem 0.5rem 0; 
+  margin: 1rem;
+  cursor: pointer;
+}
+
 .gallery-img-container {
   width: 80%;
   height: 60%;

@@ -6,36 +6,73 @@
 
 .gallery-container h1 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: left;
   background-image: url("../images/black-stairs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3rem 10rem;
+  padding: 2rem 2rem;
 }
-.gallery-img-container{
-    width: 80%;
-    height: 60%;
-    margin: auto;
-    padding: 2rem 0;
+.gallery-img-container {
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  padding: 2rem 0;
 }
 
 .gallery-img {
-    width: 600px;
-    height: 400px;
-    overflow: hidden;
-    object-fit: cover;
-    cursor: pointer;
-    transition: 0.5s all ease;
-    image-rendering: pixelated;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  image-rendering: pixelated;
 }
 
 .gallery-img:hover {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .gallery-container h2 {
-  padding: 3rem 0;
-  font-size: 1.5rem;
+  padding: 2rem 0;
+  font-size: 1.2rem;
   color: #fff;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 820px) {
+  .gallery-img {
+    width: 400px;
+    height: 400px;
+    transition: 0.5s all ease;
+    image-rendering: pixelated;
+  }
+  .gallery-container h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .gallery-container h1 {
+    font-size: 2rem;
+    padding: 3rem 10rem;
+  }
+  .gallery-img-container {
+    padding: 2rem 0;
+  }
+
+  .gallery-img {
+    width: 600px;
+    height: 400px;
+    transition: 0.5s all ease;
+    image-rendering: pixelated;
+  }
+
+  .gallery-img:hover {
+    transform: scale(1.5);
+  }
+
+  .gallery-container h2 {
+    padding: 3rem 0;
+  }
 }

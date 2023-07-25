@@ -15,8 +15,7 @@
 }
 
 .gallery-selection {
-  color: #fff;
-  
+  color: #fff;  
 }
 
 .content {
@@ -27,25 +26,7 @@
   display: block;
 }
 
-.bathroom-gallery {
-  display: block;
-}
-
-.hide-bathroom-gallery {
-  display: none;
-}
-
-.kitchen-gallery {
-  display: block;
-}
-
-.hide-kitchen-gallery {
-  display: none;
-}
-
 .tab {
-  padding: 1rem 0.5rem 0; 
-  margin: 1rem;
   cursor: pointer;
 }
 
@@ -56,6 +37,7 @@
 
 .gallery-selection ul li {
   padding: 0.5em;
+  margin: 2em 2em 1em;
   border-radius: 6px;
 }
 

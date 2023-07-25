@@ -1,67 +1,69 @@
-import { useState } from "react";
 import BackToTopBtn from "../components/BackToTopBtn";
+import { useState } from "react";
 import "../styles/Gallery.css";
 
 function Gallery() {
-  const [displayBathroom, setDisplayBathroom] = useState(false);
-  const [displayKitchen, setDisplayKitchen] = useState(false);
+  const [toggleState, setToggleState] = useState(1);
+  const toggleTab = (index) => {
+    setToggleState(index);
+  };
 
   return (
     <div className="gallery-container">
       <h1>Gallery</h1>
       <div className="gallery-selection">
         <ul>
-          <li>All Projects</li>
-          <li onClick={() => setDisplayKitchen(true)}>Kitchens</li>
-          <li onClick={() => setDisplayBathroom(true)}>Bathrooms</li>
+          <li className={toggleState === 1 ? "tabs active-tab" : "tab"} onClick={() => toggleTab(1)}>
+            All Projects
+          </li>
+          <li className={toggleState === 2 ? "tabs active-tab" : "tab"} onClick={() => toggleTab(2)}>
+            Kitchens
+          </li>
+          <li className={toggleState === 3 ? "tabs active-tab" : "tab"} onClick={() => toggleTab(3)}>
+            Bathrooms
+          </li>
         </ul>
       </div>
-      <div
-        className={`bathroom-gallery ${
-          displayKitchen ? "hide-bathroom-gallery" : ""
-        }`}
-      >
-        <div className="gallery-img-container">
-          <img
-            src={require("../images/bathroomdark.jpg")}
-            alt="dark bathroom"
-            className="gallery-img"
-          />
-        </div>
-        <div className="gallery-img-container">
-          <img
-            src={require("../images/bathroommodern.jpg")}
-            alt="modern bathroom"
-            className="gallery-img"
-          />
-        </div>{" "}
-        <div className="gallery-img-container">
-          <img
-            src={require("../images/glass-bathroom.jpg")}
-            alt="modern bathroom"
-            className="gallery-img"
-          />
-        </div>
-        <div className="gallery-img-container">
-          <img
-            src={require("../images/darkglass-bathroom.jpg")}
-            alt="modern bathroom"
-            className="gallery-img"
-          />
-        </div>
-        <div className="gallery-img-container">
-          <img
-            src={require("../images/bathroomsink.jpg")}
-            alt="bathroom sink"
-            className="gallery-img"
-          />
+      <div className="content-tabs">
+        <div className={toggleState === 2 ? "content active-content" : "content"}>
+          <div className="gallery-img-container">
+            <img
+              src={require("../images/bathroomdark.jpg")}
+              alt="dark bathroom"
+              className="gallery-img"
+            />
+          </div>
+          <div className="gallery-img-container">
+            <img
+              src={require("../images/bathroommodern.jpg")}
+              alt="modern bathroom"
+              className="gallery-img"
+            />
+          </div>{" "}
+          <div className="gallery-img-container">
+            <img
+              src={require("../images/glass-bathroom.jpg")}
+              alt="modern bathroom"
+              className="gallery-img"
+            />
+          </div>
+          <div className="gallery-img-container">
+            <img
+              src={require("../images/darkglass-bathroom.jpg")}
+              alt="modern bathroom"
+              className="gallery-img"
+            />
+          </div>
+          <div className="gallery-img-container">
+            <img
+              src={require("../images/bathroomsink.jpg")}
+              alt="bathroom sink"
+              className="gallery-img"
+            />
+          </div>
         </div>
       </div>
-      <div
-        className={`kitchen-gallery ${
-          displayBathroom ? "hide-kitchen-gallery" : ""
-        }`}
-      >
+      <div className={toggleState === 3 ? "content active-content" : "content"}>
         <div className="gallery-img-container">
           <img
             src={require("../images/whitekitchen.jpg")}

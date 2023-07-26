@@ -26,19 +26,19 @@
   display: block;
 }
 
-.tab {
-  cursor: pointer;
-}
-
 .gallery-selection ul {
   display: flex;
   justify-content: center;
 }
 
 .gallery-selection ul li {
-  padding: 0.5em;
-  margin: 2em 2em 1em;
+  padding: 0.2em;
+  margin: 2em 1em 0;
   border-radius: 6px;
+}
+
+.tab {
+  cursor: pointer;
 }
 
 .active-tab {
@@ -65,24 +65,22 @@
 }
 
 .gallery-img:hover {
-  transform: scale(1.5);
+  transform: scale(1);
 }
 
-.gallery-container h2 {
-  padding: 2rem 0;
-  font-size: 1.2rem;
-  color: #fff;
-}
 
 @media only screen and (max-width: 1024px) and (min-width: 820px) {
   .gallery-img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     transition: 0.5s all ease;
     image-rendering: pixelated;
   }
-  .gallery-container h2 {
-    font-size: 1.5rem;
+
+  .gallery-selection ul li {
+    padding: 0.7em;
+    margin: 1.5em 2em 0;
+    border-radius: 6px;
   }
 }
 
@@ -91,6 +89,7 @@
     font-size: 2rem;
     padding: 3rem 10rem;
   }
+
   .gallery-img-container {
     padding: 2rem 0;
   }
@@ -106,9 +105,10 @@
     transform: scale(1.5);
   }
 
-  .gallery-container h2 {
-    padding: 3rem 20rem;
-    text-align: left;
-    font-size: 1.5rem;
-  }
+
+.gallery-selection ul li {
+  padding: 0.6em;
+  margin: 2em 2em 0;
+  border-radius: 6px;
+}
 }

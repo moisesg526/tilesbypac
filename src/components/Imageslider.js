@@ -16,6 +16,7 @@ function Main() {
   };
   return (
     <div className="main-img-slider-component">
+      <h2>Check out some of our Work</h2>
       <Slider {...settings}>
         <div className="img-slider-slide">
           <img

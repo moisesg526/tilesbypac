@@ -1,12 +1,18 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import logo from "../images/logo.png";
+
 function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav className="navbar">
-      <div className="logo">
-        <img src={logo} alt="Tilesbypac logo" className="logo-img" />
-      </div>
+      <Link to="/" className="quote-btn">
+        <div className="logo">
+          <img src={logo} alt="Tilesbypac logo" className="logo-img" />
+        </div>
+      </Link>
       <div className="nav-links">
         <Link to="/" className="quote-btn">
           HOME
@@ -26,6 +32,24 @@ function Navbar() {
           Get a Quote
         </a>
       </div>
+      <div className="hamburger-nav">
+        <div
+          className="menu-trigger"
+          onClick={() => {
+            setOpen(!open);
+          }}
+        >
+          <i className="fa-solid fa-bars fa-xl dropdown"></i>
+        </div>
+        <div className={`dropdown-menu ${open ? "active" : "inactive"}`}>
+          <ul>
+            <DropdownItem destination={"/"} text={"Home"} />
+            <DropdownItem destination={"/about"} text={"About"} />
+            <DropdownItem destination={"/gallery"} text={"Gallery"} />
+            <DropdownItem destination={"/contact"} text={"Contact"} />
+          </ul>
+        </div>
+      </div>
     </nav>
   );
 }
@@ -41,4 +65,11 @@ function CustomLink({ to, children, ...props }) {
   );
 }
 
+function DropdownItem(props) {
+  return (
+    <li className="dropdownItem">
+      <a href={props.destination}>{props.text}</a>
+    </li>
+  );
+}
 export default Navbar;

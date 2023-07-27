@@ -30,6 +30,10 @@
   text-decoration: none;
 }
 
+.quote {
+  display: none;
+}
+
 .quote-btn {
   margin-left: 10px;
 }
@@ -86,6 +90,58 @@
   border-radius: 10px;
 }
 
+.dropdown {
+  color: #fff;
+}
+
+.hamburger-nav {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute ;
+  background-color: #111;
+  width: 100%;
+}
+
+.dropdown-menu::before {
+  content: "";
+  position: absolute;
+}
+
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown-menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.dropdown-menu ul li {
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+
+.dropdown-menu ul li:hover a {
+  color: #a0a0a0;
+  cursor: pointer;
+}
+
+.dropdownItem {
+  display: flex;
+  margin: 10px auto;
+}
 /* Keyframes needed to define animation for btn*/
 @keyframes glowing {
   0% {
@@ -136,6 +192,10 @@
     align-items: center;
   }
 
+  .quote {
+    display: block;
+  }
+
   .logo-img {
     width: 120px;
   }
@@ -143,5 +203,9 @@
   .quote-btn {
     font-size: 1rem;
     margin: 0 2rem;
+  }
+
+  .hamburger-nav{
+    display: none;
   }
 }

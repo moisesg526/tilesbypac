@@ -14,16 +14,16 @@ function Navbar() {
         </div>
       </Link>
       <div className="nav-links">
-        <Link to="/" className="quote-btn">
+        <Link to="/" className="quote-btn nav-btn">
           HOME
         </Link>
-        <CustomLink to="/about" className="quote-btn">
+        <CustomLink to="/about" className="quote-btn nav-btn">
           ABOUT US
         </CustomLink>
-        <CustomLink to="/gallery" className="quote-btn">
+        <CustomLink to="/gallery" className="quote-btn nav-btn">
           GALLERY
         </CustomLink>
-        <CustomLink to="/contact" className="quote-btn">
+        <CustomLink to="/contact" className="quote-btn nav-btn">
           CONTACT
         </CustomLink>
       </div>

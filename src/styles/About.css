@@ -21,22 +21,16 @@
 }
 
 .about-body {
-  padding: 0 10rem 4rem;
+  padding: 1rem 3rem;
+
 }
 
 .testimonial {
     border: solid 1px #dfdfdf;
-    width: 70%;
+    width: 60%;
     display: inline-block;
-    vertical-align: middle;
-    margin: 4rem 0;
-    padding: 2rem 0;
-}
-
-.testimonials-body {
-  width: 60%;
-  display: inline-block;
-  vertical-align: middle;
+    margin: 2rem 0;
+    padding: 0;
 }
 
 .testimonials-body {
@@ -46,4 +40,18 @@
 
 .testimonial-author {
     padding: 0 0 2rem;
+}
+
+
+@media only screen and (min-width: 820px) and (max-width: 1024px) {
+  .about-body {
+    padding: 0 6rem 2rem;
+  } 
+}
+
+@media only screen and (min-width: 1025px) {
+.about-body {
+  padding: 0 10rem 2rem;
+
+}
 }

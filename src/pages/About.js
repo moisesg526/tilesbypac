@@ -26,24 +26,6 @@ function About() {
           iure odit! Totam non saepe ipsum unde, maiores error esse, vitae
           itaque magnam dolorum dolore officiis rem!
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          similique libero sapiente provident incidunt odio corrupti quaerat,
-          praesentium perferendis autem quibusdam soluta voluptatibus officia
-          rem repellendus vero at. Optio, laboriosam. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Cupiditate consequuntur laborum quidem
-          laudantium iure odit! Totam non saepe ipsum unde, maiores error esse,
-          vitae itaque magnam dolorum dolore officiis rem!
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum magnam
-          qui cum amet debitis quasi quis fugit ratione sit fugiat molestiae
-          culpa, expedita veniam beatae dolores dicta odit ab excepturi! Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          consequuntur laborum quidem laudantium iure odit! Totam non saepe
-          ipsum unde, maiores error esse, vitae itaque magnam dolorum dolore
-          officiis rem!
-        </p>
       </div>
       <div className="testimonials">
         <h2>What our clients say</h2>

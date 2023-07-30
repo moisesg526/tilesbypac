@@ -1,3 +1,4 @@
+import BackToTopBtn from "../components/BackToTopBtn";
 import "../styles/About.css";
 
 function About() {
@@ -84,6 +85,7 @@ function About() {
           <h3 className="testimonial-author">- Jane Doe</h3>
         </div>
       </div>
+      <BackToTopBtn />
     </div>
   );
 }

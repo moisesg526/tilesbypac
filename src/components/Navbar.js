@@ -1,10 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import logo from "../images/logo.png";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    let handler = () => {
+      }
+
+    document.addEventListener("mousedown", handler);
+    return() => {
+      document.removeEventListener("mousedown", handler);
+    }
+  });
+
 
   return (
     <nav className="navbar">
@@ -32,7 +43,7 @@ function Navbar() {
           Get a Quote
         </a>
       </div>
-      <div className="hamburger-nav">
+      <div className="hamburger-nav" >
         <div
           className="menu-trigger"
           onClick={() => {

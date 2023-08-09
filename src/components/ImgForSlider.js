@@ -67,3 +67,4 @@ const ImgForSlider = [
     }
 ]
 
+export default ImgForSlider;

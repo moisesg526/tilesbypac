@@ -43,6 +43,9 @@ function Gallery() {
               alt="dark bathroom"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -50,6 +53,9 @@ function Gallery() {
               alt="modern bathroom"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>{" "}
           <div className="gallery-img-container">
             <img
@@ -57,6 +63,9 @@ function Gallery() {
               alt="modern bathroom"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -64,6 +73,9 @@ function Gallery() {
               alt="modern bathroom"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -71,6 +83,9 @@ function Gallery() {
               alt="bathroom sink"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -78,6 +93,9 @@ function Gallery() {
               alt="white kitchen"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -85,6 +103,9 @@ function Gallery() {
               alt="white kitchen"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -92,6 +113,9 @@ function Gallery() {
               alt="kitchen tiles"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -99,6 +123,9 @@ function Gallery() {
               alt="kitchen sink"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -106,6 +133,9 @@ function Gallery() {
               alt="lemon kitchen"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -113,6 +143,9 @@ function Gallery() {
               alt="finished kitchen"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
         </div>
         <div
@@ -124,6 +157,9 @@ function Gallery() {
               alt="white kitchen"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -131,6 +167,9 @@ function Gallery() {
               alt="white kitchen"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -138,6 +177,9 @@ function Gallery() {
               alt="kitchen tiles"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -145,6 +187,9 @@ function Gallery() {
               alt="kitchen sink"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -152,6 +197,9 @@ function Gallery() {
               alt="lemon kitchen"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -159,6 +207,9 @@ function Gallery() {
               alt="finished kitchen"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
         </div>
         <div
@@ -170,6 +221,9 @@ function Gallery() {
               alt="dark bathroom"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -177,6 +231,9 @@ function Gallery() {
               alt="modern bathroom"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>{" "}
           <div className="gallery-img-container">
             <img
@@ -184,6 +241,9 @@ function Gallery() {
               alt="modern bathroom"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -191,6 +251,9 @@ function Gallery() {
               alt="modern bathroom"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
           <div className="gallery-img-container">
             <img
@@ -198,6 +261,9 @@ function Gallery() {
               alt="bathroom sink"
               className="gallery-img"
             />
+            <div className="middle-container">
+              <i className="fa-solid fa-magnifying-glass fa-xl glass"></i>
+            </div>
           </div>
         </div>
       </div>

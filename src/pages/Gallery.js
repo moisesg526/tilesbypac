@@ -1,4 +1,6 @@
 import BackToTopBtn from "../components/BackToTopBtn";
+import Modal from "react-modal";
+import React from "react";
 import { useState } from "react";
 import "../styles/Gallery.css";
 
